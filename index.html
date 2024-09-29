@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the modern website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ------------------------------HOME PAGE------------------------------------ -->
+    <div class="banner">
+        <div class="whole">
+            <div class="logo">
+                <a href="index.html"><img src="images/ANTech.png"></a>
+            </div>
+            <div id="nabar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#banner2">Content</a></li>
+                    <li><a href="#SpeakOut">SpeakOut</a> </li>
+                    <li><a href="#banner4">Login</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ban">
+            <h1>The world are followed <br><span>The Youngster</span></h1>
+            <img src="images/feature(3).png" alt="banner" width="300px">
+        </div>
+        <div class="ban-btn">
+            <!-- <img src="images/smile.png" width="200px" style="margin-bottom: 120px"> -->
+            <button id="home-btn"><a href="Learnmore.html">Learn More</a></button>
+            <button id="home-btn"><a href="#join_us">Follow Us</a></button>
+        </div>
+
+    </div>
+
+    <!-- ---------------------------CONTENT---------------------------------- -->
+
+    <div id="banner2">
+        <h1>-------------------Content-------------------</h1>
+        <div class="container">
+            <div class="div1">
+                <img src="images/feature1.png" alt="phone" width="300px">
+                <p>Bliss; to be so happy it feels like you are in heaven. I was in seventh heaven when I landed my dream
+                    job.</p>
+                <button id="ctn-btn">Click More</button>
+            </div>
+            <div class="div2">
+                <img src="images/feature2.png" alt="share" width="200px">
+                <p>Bliss; to be so happy it feels like you are in heaven. I was in seventh heaven when I landed my dream
+                    job.</p>
+                <button id="ctn-btn">Click More</button>
+            </div>
+            <div class="div3">
+                <img src="images/feature(3).png" alt="smile" width="300px">
+                <p>Bliss; to be so happy it feels like you are in heaven. I was in seventh heaven when I landed my dream
+                    job.</p>
+                <button id="ctn-btn">Click More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------TEXT TO SPEAK-------------------------- -->
+    <div class="banner3">
+        <div id="SpeakOut">
+            <h1>Text To Speech</h1>
+            <textarea id="texttospeak"></textarea>
+            <button onclick="speak()">SPEAK HERE</button>
+        </div>
+        <div class="img">
+            <h1>Speak Out</h1>
+            <img src="images/speak.png" alt="speak" width="500px">
+        </div>
+
+    </div>
+
+    <!-- ----------------------------------LOGIN PAGE---------------------- -->
+    <div id="banner4">
+        <div class="login-img">
+            <img src="images/login.png" width="500px">
+        </div>
+
+        <div class="form">
+            <h1>Login Page</h1>
+            <form action="api/vi1/loginpage" method="post">
+
+                <label for="name">First Name</label>
+                <input id="name" type="text" name="name" placeholder="eg:ilai" required><br>
+
+                <label for="last">Last Name</label>
+                <input id="last" type="text" name="last" placeholder="eg:Ganeshan" required><br>
+
+                <label for="email">Eamil ID</label>
+                <input id="email" type="email" name="email" placeholder="eg:ilai@gmail.com" required><br>
+
+                <label for="phone">Phone Num</label>
+                <input id="phone" type="tel" name="phone" placeholder="123-546-8832" required>
+
+                <label for="password">password</label>
+                <input id="password" type="password" name="password" required><br><br>
+
+                <input id="btn" type="submit">
+                <input id="btn" type="reset">
+
+            </form>
+        </div>
+    </div>
+
+    <!-- ------------------------------JOIN US-------------------------- -->
+    <div id="join_us">
+        <div class="content">
+            <h1>Start writing clearly and confidently</h1>
+            <p>By enhancing your communication and giving your writing greater impact, we can help you reach your
+                personal and professional goals.</p>
+            <button>Sign up for Free!!</button>
+        </div>
+    </div>
+
+    <!-- --------------------------FOOTER------------------------- -->
+    <div class="footer">
+        <div class="social_media">
+            <ul>
+
+                <li><a href="https://instagram.com"><img src="images/logo-instagram.svg" alt="instagram -logo"
+                            width="20px"></a>
+                </li>
+
+                <li><a href="https://Facebook.com"><img src="images/logo-facebook.svg" alt="facebook-logo"
+                            width="20px"></a>
+                </li>
+
+                <li><a href="https://Linkdin.com"><img src="images/logo-linkedin.svg" alt="lin logo" width="20px"></a>
+                </li>
+
+                <li><a href="https://TikTok.com"><img src="images/logo-tiktok.svg" alt="tiktok logo" width="20px"></a>
+                </li>
+                <li><a href="https://YouTube.com"><img src="images/logo-youtube.svg" alt="utube logo" width="20px"></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="para">
+            <div>
+                <h3>The Founder</h3>
+                <p>The Youngster</p>
+            </div>
+            <div>
+                <h3>Contact_Us</h3>
+                <p>Lilly</p>
+                <p>123-4984-7899</p>
+            </div>
+            <div>
+                <h3>Address</h3>
+                <p>123 los angles, Paris</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@The younger website</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,408 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.whole {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 20%;
+
+}
+
+#nabar ul {
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    list-style-type: none;
+}
+
+#nabar li a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px;
+    /* Spacing between the items */
+}
+
+#nabar ul li a:hover {
+    color: white;
+    background-color: rgb(166, 10, 166);
+    font-weight: bold;
+    border: 1px solid rgb(54, 7, 54);
+    border-radius: 20px;
+}
+
+
+.ban {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ban h1 {
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ban h1 span {
+    margin-left: 70px;
+    color: rgb(159, 23, 157);
+}
+
+.ban-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    gap: 40px;
+}
+
+#home-btn {
+    margin-bottom: 20%;
+    border: 0;
+    font-weight: bold;
+    padding: 15px;
+    width: 15%;
+    border-radius: 10px;
+    background-color: rgb(191, 27, 191);
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+#home-btn a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#home-btn a:hover {
+    background-color: rgb(221, 44, 221);
+    color: white;
+
+}
+
+#home-btn:hover {
+    background-color: rgb(235, 34, 235);
+    color: white;
+}
+
+/* ----------------------------------CONTENT------------------------------ */
+
+#banner2 {
+    width: 100%;
+    height: 100vh;
+
+}
+
+#banner2 h1 {
+    text-align: center;
+    color: purple;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.div1 {
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+
+.div2 {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 40px;
+    width: 500px;
+    height: 400px;
+}
+
+.div3 {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 40px;
+    width: 500px;
+    height: 400px;
+}
+
+#ctn-btn {
+    font-size: 15px;
+    width: 45%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(213, 67, 213);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    border: none;
+
+
+}
+
+#ctn-btn:hover {
+    background-color: rgb(246, 19, 246);
+    color: white;
+    font-weight: bolder;
+}
+
+/* --------------------TEXT TO SPEECH------------------ */
+.banner3 {
+    display: flex;
+    flex-direction: row;
+    /* --------------- */
+    gap: 40px;
+    width: 50%;
+    height: 90vh;
+    /* background-color: rgba(202, 17, 202, 0.655); */
+    border: 2px solid black;
+    border-radius: 60px;
+    /* background-color: #f807f850; */
+    background-image: linear-gradient(rgba(215, 134, 215, 0.256), rgba(227, 42, 227, 0.457), #eee4ee);
+
+}
+
+.img {
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 30px;
+}
+
+.banner3 h1 {
+    text-align: center;
+}
+
+#SpeakOut {
+
+    font-family: monospace;
+    text-align: center;
+    padding: 90px;
+}
+
+#SpeakOut h1 {
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#SpeakOut button {
+    list-style-type: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 40px;
+    background-color: rgb(75, 7, 75);
+    color: white;
+    border: none;
+}
+
+#SpeakOut button:hover {
+    background-color: rgb(151, 18, 151);
+    font-weight: bolder;
+}
+
+#texttospeak {
+    margin-left: 50px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+/* --------------------------LOGIN PAGE--------------------- */
+#banner4 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.form {
+    background-image: linear-gradient(rgba(239, 11, 239, 0.256), rgba(148, 44, 148, 0.457), #f4eff4);
+    margin: 30px;
+    padding: 20px;
+    width: 60%;
+    height: 90vh;
+    border: 2px solid purple;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    color: purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#name {
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    list-style-type: none;
+    width: 50%;
+}
+
+#last {
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    width: 50%;
+}
+
+#email {
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    width: 50%;
+
+}
+
+#btn {
+    font-size: 19px;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: rgb(194, 90, 194);
+    border-radius: 10px;
+    border: none;
+}
+
+#btn:hover {
+    background-color: violet;
+    color: white;
+}
+
+#phone {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 20%;
+    margin-right: 20px;
+
+}
+
+#password {
+    margin-top: 40px;
+    padding: 10px;
+    width: 20%;
+}
+
+.login-img {
+    margin-top: 10%;
+}
+
+
+/* -----------------------JOIN US---------------- */
+#join_us {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    /* margin: 20px; */
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(196, 132, 196, 0.256), rgba(148, 44, 148, 0.457), #f4eff4);
+}
+
+.content {
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.content h1 {
+    color: rgb(45, 5, 45);
+}
+
+.content p {
+    color: rgb(16, 10, 16);
+    padding: 10px;
+}
+
+.content button {
+    border: none;
+    margin-left: 20px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(161, 17, 161);
+    color: white;
+}
+
+.content button:hover {
+    background-color: rgb(132, 22, 132);
+}
+
+
+/* ---------------------------FOOTER-------------------------- */
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    text-decoration: none;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.social_media ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.social_media ul li a {
+    font-size: 40px;
+    color: purple;
+
+}
+
+.para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.para:hover {
+    color: purple;
+    background-image: linear-gradient(rgb(203, 187, 203), white, white);
+}
+
+.copyright {
+    background-color: rgb(75, 19, 75);
+    color: white;
+    text-align: center;
+}
